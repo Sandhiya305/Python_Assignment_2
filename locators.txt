@@ -1,0 +1,20 @@
+lead_name_xpath = //div[@title='New']
+lead_first_name_xpath = //input[@name='firstName']
+lead_last_name_xpath = //input[@name='lastName']
+lead_company_xpath = //input[@name='Company']
+lead_save_button_xpath = //button[text()='Save']
+
+
+convert_button_xpath = //button[@name='Convert']
+convert2_button_xpath = (//div/span/button[@type='button'])[2]
+
+select_account = (//a[@title='Positive'])[1]
+new_contact_button = (//button[@name='Global.NewContact'])[1]
+salutation_dropdown = //a[@role = 'combobox']
+contact_lastname_xpath = //input[@placeholder = 'Last Name']
+contact_save_button = (//span[@class =' label bBody'])[7]
+
+
+opportunity_button_xpath =//button[@name = 'Global.NewOpportunity']
+opportunity_save_button = (//span[@class = ' label bBody'])[7]
+
