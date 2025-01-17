@@ -63,9 +63,6 @@ def create_lead(driver, locators, input_data):
     driver.find_element(By.XPATH, locators['lead_save_button_xpath']).click()
     time.sleep(1)
 
-    # Optionally, after creating the lead, convert it to an account (this is a manual step in Salesforce UI)
-    # You can automate this by clicking the "Convert" button after saving the lead.
-
 
 # Function to create account (for use case-2)
 def create_account(driver, locators, input_data):
